@@ -323,3 +323,15 @@ nav ul li:hover::after {
 input {
     text-align: end;
 }
+button:hover{
+    color: white;
+    background-color: #BB2339;
+  }
+  .newsletter input[type="submit"]:hover{
+    background-color: #FFF;
+    color: black;
+  }
+  header button:hover{
+    background-color:white;
+    color: black;
+  }
