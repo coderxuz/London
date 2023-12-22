@@ -188,19 +188,23 @@ header {
     font-weight: 700;
     line-height: normal;
 }
-.regular-kebab{
+
+.regular-kebab {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px 0;
     gap: 30px;
 }
-.section{
+
+.section {
     color: #242424;
 }
+
 .gallery01 {
     padding-bottom: 320px;
 }
+
 .gallery {
     display: flex;
     justify-content: space-between;
@@ -210,12 +214,14 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .gallery-title {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
 }
+
 .gallery-title p {
     color: #242424;
     font-variant-numeric: lining-nums tabular-nums;
@@ -227,6 +233,7 @@ header {
     letter-spacing: 0.92px;
     text-transform: capitalize;
 }
+
 .gallery-title h3 {
     color: #242424;
     text-align: center;
@@ -239,6 +246,7 @@ header {
     letter-spacing: 1.44px;
     text-transform: capitalize;
 }
+
 .gallery-title h4 {
     color: #AAA;
     font-family: 'Open Sans';
@@ -248,6 +256,7 @@ header {
     line-height: 175%;
     letter-spacing: 0.64px;
 }
+
 .gallery-title button {
     border-radius: 100px;
     border: 1px solid var(--qizil, #BB2339);
@@ -258,19 +267,23 @@ header {
     gap: 10px;
     background-color: white;
 }
+
 .gallery-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
 }
-footer{
+
+footer {
     box-sizing: border-box;
 }
+
 footer {
     background-color: #BB2339;
     position: relative;
 }
+
 .newsletter {
     display: inline-flex;
     padding: 64px 252px;
@@ -285,6 +298,7 @@ footer {
     position: absolute;
     top: -250px;
 }
+
 .newsletter h2 {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -296,6 +310,7 @@ footer {
     letter-spacing: 0.92px;
     text-transform: capitalize;
 }
+
 .newsletter h1 {
     color: #FFF;
     text-align: center;
@@ -308,6 +323,7 @@ footer {
     letter-spacing: 1.44px;
     text-transform: capitalize;
 }
+
 .newsletter p {
     color: #FFF;
     text-align: center;
@@ -318,12 +334,14 @@ footer {
     line-height: 175%;
     letter-spacing: 0.64px;
 }
+
 .newsletter form {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
+
 .newsletter input[type="text"] {
     border-radius: 100px;
     border: 1px solid rgba(245, 239, 219, 0.50);
@@ -332,7 +350,6 @@ footer {
     flex-shrink: 0;
     background-color: transparent;
     color: var(--AAAAAA, #AAA);
-    text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cera Round Pro';
     font-size: 16px;
@@ -342,6 +359,7 @@ footer {
     letter-spacing: 0.64px;
     padding-left: 10px;
 }
+
 .newsletter input[type="submit"] {
     display: flex;
     padding: 12px 32px;
@@ -359,18 +377,21 @@ footer {
     letter-spacing: 0.64px;
     background-color: transparent;
 }
+
 .turkish {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 300px;
 }
+
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+
 .turkish h1 {
     color: #FFF;
     font-variant-numeric: lining-nums tabular-nums;
@@ -383,6 +404,7 @@ footer {
     text-transform: capitalize;
     padding-bottom: 20px;
 }
+
 .turkish P {
     color: #FFF;
     text-align: center;
@@ -394,21 +416,50 @@ footer {
     letter-spacing: 0.64px;
     padding-bottom: 7px;
 }
+
 .eat-turkish {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+
 .social {
     padding-bottom: 70px;
 }
+
 .working-hours {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-.newsletter input::placeholder{
+
+.newsletter input::placeholder {
     text-align: start;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 2rem;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+nav ul li:after {
+    content: '';
+    width: 0;
+    height: 1.5px;
+    background: #fff;
+    position: absolute;
+    left: 7px;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 80%;
 }

@@ -294,3 +294,32 @@ footer {
 .newsletter input::placeholder {
     text-align: start;
 }
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 2rem;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+nav ul li:after {
+    content: '';
+    width: 0;
+    height: 1.5px;
+    background: #fff;
+    position: absolute;
+    left: 7px;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 80%;
+}
+
+input {
+    text-align: end;
+}

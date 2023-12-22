@@ -24,8 +24,29 @@ ul {
   align-items: center;
 }
 
-nav li {
-  padding-left: 20px;
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 2rem;
+  padding: 0 10px;
+  margin: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+nav ul li:after {
+  content: '';
+  width: 0;
+  height: 1.5px;
+  background: #fff;
+  position: absolute;
+  left: 7px;
+  bottom: 0px;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after {
+  width: 80%;
 }
 
 header {
@@ -207,24 +228,6 @@ header {
   display: none;
 }
 
-nav a {
-  transition: border 0.2s ease-in;
-  border-bottom: 1.5px solid transparent;
-  padding-bottom: 2px;
-}
-
-nav a:hover {
-  border-bottom: 1.5px solid white;
-  width: 100%;
-}
-
-/* nav a:hover:before{
-    content: '';
-    position: absolute;
-    border: 1px solid white;
-    top: 74px;
-    width: 40px;
-} */
 .header-right img {
   padding-left: 40px;
   box-sizing: content-box;
@@ -782,23 +785,32 @@ footer {
   letter-spacing: 0.64px;
   padding-bottom: 7px;
 }
-.eat-turkish p{
+
+.eat-turkish p {
   padding-top: 20px;
   padding-bottom: 50px;
 }
-.social{
+
+.social {
   padding-bottom: 70px;
 }
-.newsletter{
+
+.newsletter {
   position: absolute;
   top: -250px;
 }
-footer{
+
+footer {
   position: relative;
 }
-.turkish{
+
+.turkish {
   padding-top: 300px;
 }
-.gallery01{
+
+.gallery01 {
   padding-bottom: 320px;
+}
+input{
+  text-align: end;
 }
