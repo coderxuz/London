@@ -463,15 +463,22 @@ nav ul li:after {
 nav ul li:hover::after {
     width: 80%;
 }
-button:hover{
+
+button:hover {
     color: white;
     background-color: #BB2339;
-  }
-  .newsletter input[type="submit"]:hover{
+}
+
+.newsletter input[type="submit"]:hover {
     background-color: #FFF;
     color: black;
-  }
-  header button:hover{
-    background-color:white;
+}
+
+header button:hover {
+    background-color: white;
     color: black;
-  }
+}
+.regular-btn button:hover{
+    background-color: white;
+    color: black;
+}

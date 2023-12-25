@@ -830,3 +830,7 @@ header button:hover{
   background-color:white;
   color: black;
 }
+.maria-date img:hover{
+  border: 2px solid red;
+  border-radius: 10px;
+}

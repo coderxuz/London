@@ -80,15 +80,15 @@
                             <p>If you have any questions, you can send us an SMS or contact us by phone you can also
                                 contact us via social networks.</p>
                             <div class="inpt">
-                                <input type="text" placeholder="Your name">
-                                <input type="email" placeholder="Email address">
+                                <input name="name" type="text" placeholder="Your name" required>
+                                <input name="email" type="email" placeholder="Email address" required>
                             </div>
                             <div class="inpt">
-                                <input type="tel" placeholder="Phone number">
-                                <input type="text" placeholder="Subject">
+                                <input name="tel" type="tel" placeholder="Phone number" required>
+                                <input name="text" type="text" placeholder="Subject" required>
                             </div>
-                            <input class="message" type="text" placeholder="Message">
-                            <input type="submit" value="Send message">
+                            <input name="message" class="message" type="text" placeholder="Message" required>
+                            <input name="submit" type="submit" value="Send message" required>
                         </form>
                     </div>
                 </div>
@@ -99,19 +99,10 @@
             <div class="container">
                 <div class="card">
                     <h1>Find us by card</h1>
-                    <div class="maps">
-                        <div class="map">
-                            <img class="red" src="./img/pin-alt.svg" alt="">
-                        </div>
-                        <div class="slider">
-                            <img src="./img/Group 597.svg" alt="">
-                            <div class="white">
-                                <div class="brown"></div>
-                            </div>
-
-                            <img src="./img/Group 598.svg" alt="">
-                        </div>
-                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46645.28615498714!2d58.830928125449255!3d43.05551847768244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41c2b3c8581e96e3%3A0x5013ce702c222189!2z0prQvtKj0YvRgNCw0YIsIE9gemJla2lzdG9u!5e0!3m2!1suz!2s!4v1703503418521!5m2!1suz!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
@@ -138,9 +129,9 @@
                     <img src="./img/images 2.png" alt="">
                     <p>"The best way to find yourself is to lose yourself in the <br> service of others.”</p>
                     <div class="social">
-                        <img src="./img/u_facebook-f.png" alt="">
-                        <img src="./img/u_twitter-alt.png" alt="">
-                        <img src="./img/u_instagram.svg" alt="">
+                        <a href="https://www.facebook.com/"><img src="./img/u_facebook-f.png" alt=""></a>
+                        <a href="https://twitter.com/"><img src="./img/u_twitter-alt.png" alt=""></a>
+                        <a href="https://www.instagram.com/"><img src="./img/u_instagram.svg" alt=""></a>
                     </div>
                     <p class="reserved">2022 Pop online. All Rights reserved.</p>
                 </div>

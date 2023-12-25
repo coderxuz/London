@@ -256,67 +256,10 @@ form input {
     flex-direction: column;
     justify-content: space-between;
 }
-
-.maps {
-    width: 1250px;
-    height: 703px;
-    flex-shrink: 0;
-    border-radius: 14px;
-    background: url(../img/Rectangle\ 574.png), lightgray 50% / cover no-repeat;
+iframe{
+    width: 100%;
+    height: 700px;
 }
-
-.red {
-    flex-shrink: 0;
-    background-color: rgba(187, 35, 58, 0.185);
-    border-radius: 50%;
-    padding: 20px;
-}
-
-.slider img {
-    border-radius: 3px;
-    background: #FFF;
-    box-shadow: 10px 14px 34px 0px rgba(0, 0, 0, 0.25);
-    padding: 10px;
-}
-
-.white {
-    width: 12px;
-    height: 393px;
-    flex-shrink: 0;
-    border-radius: 1px;
-    background: #FFF;
-    box-shadow: 4px 8px 18px 0px rgba(0, 0, 0, 0.09);
-}
-
-.slider {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    position: absolute;
-    right: 50px;
-    top: 100px;
-}
-
-.maps {
-    position: relative;
-}
-
-.map {
-    position: absolute;
-    top: 200px;
-    left: 450px;
-}
-
-.brown {
-    width: 12px;
-    height: 45px;
-    flex-shrink: 0;
-    background: #EC4831;
-    margin-top: 100px;
-}
-
 .card {
     display: flex;
     flex-direction: column;
@@ -344,7 +287,7 @@ form input {
 footer {
     background-color: #BB2339;
     position: relative;
-    top: 400px;
+    top: 200px;
 }
 
 .newsletter {
@@ -553,15 +496,22 @@ nav ul li:hover::after {
 input {
     text-align: end;
 }
-button:hover{
+
+button:hover {
     color: white;
     background-color: #BB2339;
-  }
-  .newsletter input[type="submit"]:hover{
+}
+
+.newsletter input[type="submit"]:hover {
     background-color: #FFF;
     color: black;
-  }
-  header button:hover{
-    background-color:white;
+}
+
+header button:hover {
+    background-color: white;
     color: black;
-  }
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
