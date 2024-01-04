@@ -356,7 +356,6 @@ footer {
     flex-shrink: 0;
     background-color: transparent;
     color: var(--AAAAAA, #AAA);
-    text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cera Round Pro';
     font-size: 16px;
@@ -515,3 +514,13 @@ input[type="submit"]:hover{
     background-color: white;
     color: black;
 }
+.line{
+    border: 0.1px solid gray ;
+    height: 20px;
+}
+input{
+    text-align: start;
+  }
+  .newsletter input[type="submit"]{
+    margin-top: 0;
+  }

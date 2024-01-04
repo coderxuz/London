@@ -482,3 +482,7 @@ header button:hover {
     background-color: white;
     color: black;
 }
+.line{
+    border: 0.1px solid gray ;
+    height: 20px;
+}
